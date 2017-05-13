@@ -8,10 +8,6 @@ h1, h3 {
 	text-align: center;
 }
 
-h1 a {
-	float: left;
-}
-
 a {
 	color: #00adee;
 	text-decoration: none;
@@ -69,11 +65,7 @@ textarea {
 	height: 30vh;
 }
 
-a.border_a_tag, a.border_char {
-	float: left;
-}
-
-a.border_a_tag:hover, select:hover,
+select:hover,
 button:hover {
 	background: #444;
 	text-decoration: none !important;
@@ -239,6 +231,10 @@ body, html {
 
 .active {
 	background-color: #00adee;
+}
+
+.highlighted {
+	color: #00adee;
 }
 
 @media screen and (max-width: 1075px) {
