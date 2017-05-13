@@ -159,11 +159,10 @@ a.border_char {
 }
 
 .tempImage {
-	background: url(images/tempbackground.png);
+	background: blue;
 }
 
 .parallax {
-	min-height: 100%;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -208,4 +207,66 @@ body, html {
 
 .main-header-sec {
 	font-size: 80px;
+}
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #222;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navbar li {
+	float: left;
+	margin-left: 5px;
+}
+
+.navbar li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color: #444;
+}
+
+.active {
+	background-color: #00adee;
+}
+
+@media screen and (max-width: 1075px) {
+	.main-header {
+		font-size: 4em;
+	}
+
+	.main-header-sec {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+    .navbar li {
+        text-align: center;
+        float: none;
+    }
+
+    .main-header {
+		font-size: 2em;
+	}
+
+	.main-header-sec {
+		font-size: 20px;
+		margin-top: -50px !important;
+	}
+
+	.parallax {
+		margin-top: 150px;
+	}
 }
