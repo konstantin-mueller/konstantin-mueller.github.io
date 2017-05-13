@@ -1,0 +1,211 @@
+body {
+	font-family: sans-serif;
+	background: #1e1e1e;
+	color: #ccc;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+h1 a {
+	float: left;
+}
+
+a {
+	color: #00adee;
+	text-decoration: none;
+}
+
+a:hover, select:hover {
+	text-shadow: 0 0 3px rgba(0,173,238,.5);
+	text-decoration:underline;
+}
+
+a:active, a:focus,
+select:active, select:focus,
+button:active, button:focus {
+	text-shadow: 0 0 3px rgba(0,173,238,.5);
+	text-decoration: none;
+	outline:none;
+}
+
+button::-moz-focus-inner {
+   border: 0;
+}
+ 
+ul {
+	box-shadow: 1px 1px 0 #000;
+	background-color: #000;
+	background-color: rgba(0,0,0,.25);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0) 20px);
+    padding: 10px 30px;
+    margin: 0 30px;
+    border-left: 5px solid #00adee;
+}
+
+.header {
+	font-size: 18px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+hr {
+	border: 0;
+	border-bottom: 1px solid #444;
+}
+
+textarea {
+	background: #222;
+    color: #ccc;
+    display: block;
+	padding: 8px;
+	width: 98% !important;
+	border: .08rem solid #ccc;
+	float: left;
+	font: bold 1rem "Courier New",monospace;
+	margin: 0;
+	resize: vertical;
+	height: 30vh;
+}
+
+a.border_a_tag, a.border_char {
+	float: left;
+}
+
+a.border_a_tag:hover, select:hover,
+button:hover {
+	background: #444;
+	text-decoration: none !important;
+}
+
+.error {
+	color: #a94442;
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.big {
+	font-size: 128px;
+}
+
+input[type="number"] {
+	width: 70px;
+}
+
+option {
+	background: #444;
+	cursor: pointer;
+	font: 1rem Garamond,Georgia,sans-serif;
+	margin: .2rem;
+}
+
+select {
+	background: #222;
+	cursor: pointer;
+	font: 1rem Garamond,Georgia,sans-serif;
+	margin: .2rem;
+	color: #ccc;
+}
+
+a.border_a_tag, a.border_char,
+button {
+	background: #222;
+	border: .1rem solid #ccc;
+	color: #ccc;
+	cursor: pointer;
+	padding: .3rem .4rem;
+	text-align: center;
+	text-decoration: none;
+	font: 1rem Garamond,Georgia,sans-serif;
+	margin: .2rem;
+}
+
+a.border_a_tag {
+	width: 8rem;
+}
+
+a.border_char {
+	width: 1.5rem;
+}
+
+.float_right {
+	float: right !important;
+}
+
+.border_sel {
+	border: .08rem solid #ccc;
+	float: left;
+	padding: .1rem .2rem;
+	width: 12rem !important;
+}
+
+
+/*---------------*/
+
+.codeImage {
+	background: url(images/code.png);
+}
+
+.tempImage {
+	background: url(images/tempbackground.png);
+}
+
+.parallax {
+	min-height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+body, html {
+	margin: 0;
+	height: 100%;
+}
+
+.content {
+	margin: 5px;
+}
+
+.lato {
+	font-family: "Lato", sans-serif;
+}
+
+.oswald {
+	font-family: "Oswald", sans-serif;
+}
+
+.main-header {
+	font-size: 8em;
+	text-align: center;
+	height: 100%;
+	text-shadow: 1px 1px 5px black;
+}
+
+.main-header span {
+	margin-top: -150px;
+	display: block;
+}
+
+.main-header:before {
+	content: "";
+	display: block;
+	height: 50%;
+}
+
+.main-header-sec {
+	font-size: 80px;
+}
