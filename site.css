@@ -31,19 +31,12 @@ button::-moz-focus-inner {
 }
  
 ul {
-	box-shadow: 1px 1px 0 #000;
-	background-color: #000;
+	box-shadow: 1px 1px 0 #00adee;
+	background-color: #1e1e1e;
 	background-color: rgba(0,0,0,.25);
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0) 20px);
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(30,30,30,1) 40px);
     padding: 10px 30px;
     margin: 0 30px;
-    border-left: 5px solid #00adee;
-}
-
-.header {
-	font-size: 18px;
-	padding-bottom: 10px;
-	display: block;
 }
 
 hr {
@@ -88,10 +81,6 @@ button:hover {
 	text-align: center;
 }
 
-.big {
-	font-size: 128px;
-}
-
 input[type="number"] {
 	width: 70px;
 }
@@ -111,7 +100,6 @@ select {
 	color: #ccc;
 }
 
-a.border_a_tag, a.border_char,
 button {
 	background: #222;
 	border: .1rem solid #ccc;
@@ -124,23 +112,8 @@ button {
 	margin: .2rem;
 }
 
-a.border_a_tag {
-	width: 8rem;
-}
-
-a.border_char {
-	width: 1.5rem;
-}
-
 .float_right {
 	float: right !important;
-}
-
-.border_sel {
-	border: .08rem solid #ccc;
-	float: left;
-	padding: .1rem .2rem;
-	width: 12rem !important;
 }
 
 
@@ -226,7 +199,7 @@ body, html {
 }
 
 .navbar li a:hover {
-	background-color: #444;
+	background-color: #00adee;
 }
 
 .active {
