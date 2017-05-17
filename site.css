@@ -148,10 +148,6 @@ body, html {
 	font-family: "Lato", sans-serif;
 }
 
-.oswald {
-	font-family: "Oswald", sans-serif;
-}
-
 .main-header {
 	font-size: 8em;
 	text-align: center;
@@ -208,6 +204,31 @@ body, html {
 
 .highlighted {
 	color: #00adee;
+}
+
+.div {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: #555;
+    border: 1px solid #000;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0 0 20px #000;
+    box-shadow: inset 0 0 20px #000;
+    display: inline-block;
+    color: #00adee;
+}
+
+.div .header {
+	text-align: center;
+	font-size: 40px;
+	font-family: "Lato", sans-serif;
+	margin-bottom: 20px;
+}
+
+.div img {
+	text-align: center;
 }
 
 @media screen and (max-width: 1075px) {
