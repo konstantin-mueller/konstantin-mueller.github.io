@@ -10,7 +10,6 @@ h1, h3 {
 
 a {
 	color: #00adee;
-	text-decoration: none;
 }
 
 a:hover, select:hover {
@@ -211,13 +210,14 @@ body, html {
     padding: 19px;
     margin-bottom: 20px;
     margin-left: 20px;
-    background-color: #555;
+    background-color: #ddd;/*#555;*/
     border: 1px solid #000;
     border-radius: 15px;
     -webkit-box-shadow: inset 0 0 20px #000;
     box-shadow: inset 0 0 20px #000;
     display: inline-block;
     color: #00adee;
+    max-width: 30%;
 }
 
 .div .header {
