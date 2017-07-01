@@ -143,10 +143,6 @@ body, html {
 	margin: 5px;
 }
 
-.lato {
-	font-family: "Lato", sans-serif;
-}
-
 .main-header {
 	font-size: 8em;
 	text-align: center;
@@ -223,7 +219,7 @@ body, html {
 .div .header {
 	text-align: center;
 	font-size: 40px;
-	font-family: "Lato", sans-serif;
+	font-family: sans-serif;
 	margin-bottom: 20px;
 }
 

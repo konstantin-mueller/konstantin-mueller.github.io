@@ -1,12 +1,20 @@
 "use strict";
 
+function navbarClickListener() {
+	const elements = document.querySelectorAll(".navbar .active");
+	Array.from(elements).forEach(function(element) {
+		element.removeClass("active");
+	});
+	this.classList.add("active");
+}
+
 function initNavbar() {
-	$(".navbar li").click(function() {
-		$(".navbar .active").removeClass("active");
-		$(this).addClass("active");
+	const elements = document.querySelectorAll(".navbar li");
+	Array.from(elements).forEach(function(element) {
+		element.addEventListener("click", navbarClickListener, false);
 	});
 }
 
-$(document).ready(function() {
+window.addEventListener("load", function() {
 	initNavbar();
-});
+}, false);
