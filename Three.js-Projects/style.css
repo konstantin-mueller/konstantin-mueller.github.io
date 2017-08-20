@@ -1,0 +1,8 @@
+/**
+*	Base style for Three.js examples by Konstantin Müller
+*/
+
+body {
+	overflow: hidden;
+	margin: 0;
+}
